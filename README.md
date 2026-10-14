@@ -8,6 +8,10 @@
 day26-mcp/
 ├── README.md                ← Bạn đang đọc file này
 ├── requirements.txt         ← pip install -r requirements.txt
+├── .env.example             ← Mẫu biến môi trường, không chứa secret thật
+├── docs/                    ← Setup, kiến trúc và production checklist
+├── tests/                   ← Test cấu trúc và registry
+├── Makefile                 ← Lệnh check/test/demo
 │
 ├── 01-function-calling/     ← Bước 1: Function Calling thuần (Gemini SDK)
 │   ├── README.md
@@ -35,6 +39,10 @@ day26-mcp/
 
 > Bước 01–03 dùng **MCP Python SDK v2** (`mcp>=2.0`, xem `requirements.txt`).
 > Lab 04 có môi trường riêng (`uv sync` trong từng thư mục).
+
+Tài liệu vận hành: [`docs/setup.md`](docs/setup.md),
+[`docs/architecture.md`](docs/architecture.md) và
+[`docs/production-checklist.md`](docs/production-checklist.md).
 
 ## Quick start
 
